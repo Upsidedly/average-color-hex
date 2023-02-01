@@ -1,0 +1,24 @@
+{
+  "name": "@upsided/average-color",
+  "version": "1.0.0",
+  "description": "Get the average color details of an image",
+  "main": "index.js",
+  "keywords": [
+    "average",
+    "color",
+    "hex"
+  ],
+  "scripts": {
+    "format": "rome format --write index.ts"
+  },
+  "author": "upsided",
+  "license": "gpl-3.0-or-later",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "fast-average-color-node": "^2.6.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "rome": "^11.0.0"
+  }
+}
